@@ -1,0 +1,31 @@
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+div{
+    padding: 20px ;
+    margin: 0px 0px -40px;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.col, .col-2, .col-3{
+    background-color: rgb(9, 138, 138);
+    display: inline-block;
+    flex-grow: 1;
+    margin: 10px;
+}
+.row2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.row3{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
